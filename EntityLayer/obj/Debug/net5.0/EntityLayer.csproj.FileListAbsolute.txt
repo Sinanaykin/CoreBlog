@@ -1,0 +1,12 @@
+C:\Asp .Net Core 5.0 MVC\CoreDemo\EntityLayer\bin\Debug\net5.0\EntityLayer.deps.json
+C:\Asp .Net Core 5.0 MVC\CoreDemo\EntityLayer\bin\Debug\net5.0\EntityLayer.dll
+C:\Asp .Net Core 5.0 MVC\CoreDemo\EntityLayer\bin\Debug\net5.0\ref\EntityLayer.dll
+C:\Asp .Net Core 5.0 MVC\CoreDemo\EntityLayer\bin\Debug\net5.0\EntityLayer.pdb
+C:\Asp .Net Core 5.0 MVC\CoreDemo\EntityLayer\obj\Debug\net5.0\EntityLayer.csproj.AssemblyReference.cache
+C:\Asp .Net Core 5.0 MVC\CoreDemo\EntityLayer\obj\Debug\net5.0\EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Asp .Net Core 5.0 MVC\CoreDemo\EntityLayer\obj\Debug\net5.0\EntityLayer.AssemblyInfoInputs.cache
+C:\Asp .Net Core 5.0 MVC\CoreDemo\EntityLayer\obj\Debug\net5.0\EntityLayer.AssemblyInfo.cs
+C:\Asp .Net Core 5.0 MVC\CoreDemo\EntityLayer\obj\Debug\net5.0\EntityLayer.csproj.CoreCompileInputs.cache
+C:\Asp .Net Core 5.0 MVC\CoreDemo\EntityLayer\obj\Debug\net5.0\EntityLayer.dll
+C:\Asp .Net Core 5.0 MVC\CoreDemo\EntityLayer\obj\Debug\net5.0\ref\EntityLayer.dll
+C:\Asp .Net Core 5.0 MVC\CoreDemo\EntityLayer\obj\Debug\net5.0\EntityLayer.pdb
