@@ -150,3 +150,9 @@ C:\Asp .Net Core 5.0 MVC\CoreDemo\CoreDemo\bin\Debug\net5.0\BusinessLayer.pdb
 C:\Asp .Net Core 5.0 MVC\CoreDemo\CoreDemo\bin\Debug\net5.0\DataAccessLayer.pdb
 C:\Asp .Net Core 5.0 MVC\CoreDemo\CoreDemo\bin\Debug\net5.0\EntityLayer.pdb
 C:\Asp .Net Core 5.0 MVC\CoreDemo\CoreDemo\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Asp .Net Core 5.0 MVC\CoreDemo\CoreDemo\obj\Debug\net5.0\Razor\Views\Category\Index.cshtml.g.cs
+C:\Asp .Net Core 5.0 MVC\CoreDemo\CoreDemo\obj\Debug\net5.0\Razor\Views\Shared\UserLayout.cshtml.g.cs
+C:\Asp .Net Core 5.0 MVC\CoreDemo\CoreDemo\obj\Debug\net5.0\Razor\Views\Blog\Index.cshtml.g.cs
+C:\Asp .Net Core 5.0 MVC\CoreDemo\CoreDemo\obj\Debug\net5.0\Razor\Views\Shared\Partial1.cshtml.g.cs
+C:\Asp .Net Core 5.0 MVC\CoreDemo\CoreDemo\obj\Debug\net5.0\Razor\Views\Shared\Partial2.cshtml.g.cs
+C:\Asp .Net Core 5.0 MVC\CoreDemo\CoreDemo\obj\Debug\net5.0\Razor\Views\Shared\Partial3.cshtml.g.cs
