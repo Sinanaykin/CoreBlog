@@ -160,3 +160,5 @@ C:\Asp .Net Core 5.0 MVC\CoreDemo\CoreDemo\obj\Debug\net5.0\Razor\Views\Blog\Blo
 C:\Asp .Net Core 5.0 MVC\CoreDemo\CoreDemo\obj\Debug\net5.0\Razor\Views\Comment\PartialAddComment.cshtml.g.cs
 C:\Asp .Net Core 5.0 MVC\CoreDemo\CoreDemo\obj\Debug\net5.0\Razor\Views\Comment\CommentListByBlog.cshtml.g.cs
 C:\Asp .Net Core 5.0 MVC\CoreDemo\CoreDemo\obj\Debug\net5.0\Razor\Views\Shared\Components\CommentList\Default.cshtml.g.cs
+C:\Asp .Net Core 5.0 MVC\CoreDemo\CoreDemo\obj\Debug\net5.0\Razor\Views\Shared\Components\CommentListByBlog\Default.cshtml.g.cs
+C:\Asp .Net Core 5.0 MVC\CoreDemo\CoreDemo\obj\Debug\net5.0\Razor\Views\Shared\Components\CategoryList\Default.cshtml.g.cs
