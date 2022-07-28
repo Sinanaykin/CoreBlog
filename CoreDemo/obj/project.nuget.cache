@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "RdU/OIvslY6N4jirHC+qNN1Vh+KGuZoW5PThPdofM9fP+uBtivSY93wobAgiGXKwFpu78DLyXnW3XBoeWn9OYg==",
+  "dgSpecHash": "Osjv9PcFioc0X6AxSsk3rrBdAWYJzOCkZ7JIlrR46dfE9PFKtYVNynryleZxqtTkW2JAeqdw/7Svq3A/vYah0A==",
   "success": true,
   "projectFilePath": "C:\\Asp .Net Core 5.0 MVC\\CoreDemo\\CoreDemo\\CoreDemo.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\sinan.aykin\\.nuget\\packages\\fluentvalidation\\10.3.3\\fluentvalidation.10.3.3.nupkg.sha512",
+    "C:\\Users\\sinan.aykin\\.nuget\\packages\\fluentvalidation.aspnetcore\\10.3.3\\fluentvalidation.aspnetcore.10.3.3.nupkg.sha512",
+    "C:\\Users\\sinan.aykin\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\10.3.3\\fluentvalidation.dependencyinjectionextensions.10.3.3.nupkg.sha512",
     "C:\\Users\\sinan.aykin\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\sinan.aykin\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\sinan.aykin\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",

@@ -1,6 +1,5 @@
 C:\Asp .Net Core 5.0 MVC\CoreDemo\BusinessLayer\bin\Debug\net5.0\BusinessLayer.deps.json
 C:\Asp .Net Core 5.0 MVC\CoreDemo\BusinessLayer\bin\Debug\net5.0\BusinessLayer.dll
-C:\Asp .Net Core 5.0 MVC\CoreDemo\BusinessLayer\bin\Debug\net5.0\ref\BusinessLayer.dll
 C:\Asp .Net Core 5.0 MVC\CoreDemo\BusinessLayer\bin\Debug\net5.0\BusinessLayer.pdb
 C:\Asp .Net Core 5.0 MVC\CoreDemo\BusinessLayer\bin\Debug\net5.0\DataAccessLayer.dll
 C:\Asp .Net Core 5.0 MVC\CoreDemo\BusinessLayer\bin\Debug\net5.0\EntityLayer.dll
@@ -15,3 +14,4 @@ C:\Asp .Net Core 5.0 MVC\CoreDemo\BusinessLayer\obj\Debug\net5.0\BusinessLayer.c
 C:\Asp .Net Core 5.0 MVC\CoreDemo\BusinessLayer\obj\Debug\net5.0\BusinessLayer.dll
 C:\Asp .Net Core 5.0 MVC\CoreDemo\BusinessLayer\obj\Debug\net5.0\ref\BusinessLayer.dll
 C:\Asp .Net Core 5.0 MVC\CoreDemo\BusinessLayer\obj\Debug\net5.0\BusinessLayer.pdb
+C:\Asp .Net Core 5.0 MVC\CoreDemo\BusinessLayer\bin\Debug\net5.0\ref\BusinessLayer.dll
