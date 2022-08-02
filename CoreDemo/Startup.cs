@@ -39,7 +39,11 @@ namespace CoreDemo
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
+
+            app.UseStatusCodePagesWithReExecute("/ErrorPage/Error1","?code={0}");//ErrorPage yani hata sayfalarý içindeki  Error1 sayfasýna yönlendir.birde query olarak hata kodu için ?code={0} ekle parametreden gelen deðer demek .Kontrollerdaki parametre ile ayný isimde olmalý. 
+
             app.UseHttpsRedirection();
+
             app.UseStaticFiles();
 
             app.UseRouting();
