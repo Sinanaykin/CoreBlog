@@ -7,13 +7,22 @@ using System.Threading.Tasks;
 
 namespace CoreDemo.Controllers
 {
-    public class LoginController : Controller
+    
+    public class WriterController : Controller
     {
-        [AllowAnonymous]//Startup daki bütün kısıtlamalardan muaf olsun yani authorization işlemi yapmasada bu sayfaya erişebilir oluyor böylelikle.
+        
         public IActionResult Index()
+        {
+            return View();
+        }
+        public IActionResult WriterProfile()
+        {
+            return View();
+        }
+
+        public IActionResult WriterMail()
         {
             return View();
         }
     }
 }
- 

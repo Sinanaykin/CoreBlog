@@ -1,6 +1,8 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.AspNetCore.Mvc.Authorization;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -24,7 +26,15 @@ namespace CoreDemo
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
-        }
+            services.AddMvc(config => //Proje seviyesinde Authorize  yapabilicez.Giriþ yapýlmadan sayfalara eriþilmesin dicez.Yani sayfalarýn hepsine eriþmek için giriþ yapmalýsýn.Tüm sayfalara eriþemiyoruz giriþ sayfasýna eriþmek için [AllowAnonymous] Controllera bunu yaz LoginController daki Indexe.
+            {
+                var policy = new AuthorizationPolicyBuilder()
+                .RequireAuthenticatedUser()
+                .Build();
+                config.Filters.Add(new AuthorizeFilter(policy));
+            });
+
+    }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
