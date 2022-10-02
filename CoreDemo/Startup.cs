@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -26,6 +27,8 @@ namespace CoreDemo
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+            services.AddSession();//Session iþlemi ni bunu ekledik yani oturum ekleme
+                                  //
             services.AddMvc(config => //Proje seviyesinde Authorize  yapabilicez.Giriþ yapýlmadan sayfalara eriþilmesin dicez.Yani sayfalarýn hepsine eriþmek için giriþ yapmalýsýn.Tüm sayfalara eriþemiyoruz giriþ sayfasýna eriþmek için [AllowAnonymous] Controllera bunu yaz LoginController daki Indexe.
             {
                 var policy = new AuthorizationPolicyBuilder()
@@ -33,6 +36,15 @@ namespace CoreDemo
                 .Build();
                 config.Filters.Add(new AuthorizeFilter(policy));
             });
+            services.AddMvc();
+            services.AddAuthentication(//Return login Url (Yani ansayfa hakkýmýzda iletiþime þuan týklasak da login ekranýna atsýn diye yaptýk)
+                CookieAuthenticationDefaults.AuthenticationScheme)
+            .AddCookie(x =>
+            {
+                x.LoginPath = "/Login/Index";
+            }
+
+            );
 
     }
 
@@ -55,6 +67,7 @@ namespace CoreDemo
             app.UseHttpsRedirection();
 
             app.UseStaticFiles();
+            app.UseSession();//Session kullanmak için ekledik
 
             app.UseRouting();
 

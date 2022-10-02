@@ -15,4 +15,4 @@ C:\Asp .Net Core 5.0 MVC\CoreDemo\DataAccessLayer\obj\Debug\net5.0\DataAccessLay
 C:\Asp .Net Core 5.0 MVC\CoreDemo\DataAccessLayer\obj\Debug\net5.0\ref\DataAccessLayer.dll
 C:\Asp .Net Core 5.0 MVC\CoreDemo\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.pdb
 C:\Asp .Net Core 5.0 MVC\CoreDemo\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.genruntimeconfig.cache
-C:\Asp .Net Core 5.0 MVC\CoreDemo\DataAccessLayer\bin\Debug\net5.0\ref\DataAccessLayer.dll
+C:\Asp .Net Core 5.0 MVC\CoreDemo\DataAccessLayer\obj\Debug\net5.0\refint\DataAccessLayer.dll

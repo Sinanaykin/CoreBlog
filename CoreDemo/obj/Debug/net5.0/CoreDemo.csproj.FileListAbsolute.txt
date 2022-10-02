@@ -162,7 +162,6 @@ C:\Asp .Net Core 5.0 MVC\CoreDemo\CoreDemo\obj\Debug\net5.0\Razor\Views\Shared\C
 C:\Asp .Net Core 5.0 MVC\CoreDemo\CoreDemo\obj\Debug\net5.0\Razor\Views\Shared\Components\CommentListByBlog\Default.cshtml.g.cs
 C:\Asp .Net Core 5.0 MVC\CoreDemo\CoreDemo\obj\Debug\net5.0\Razor\Views\Shared\Components\CategoryList\Default.cshtml.g.cs
 C:\Asp .Net Core 5.0 MVC\CoreDemo\CoreDemo\obj\Debug\net5.0\Razor\Views\Register\Index.cshtml.g.cs
-C:\Asp .Net Core 5.0 MVC\CoreDemo\CoreDemo\bin\Debug\net5.0\ref\CoreDemo.dll
 C:\Asp .Net Core 5.0 MVC\CoreDemo\CoreDemo\bin\Debug\net5.0\FluentValidation.dll
 C:\Asp .Net Core 5.0 MVC\CoreDemo\CoreDemo\bin\Debug\net5.0\FluentValidation.AspNetCore.dll
 C:\Asp .Net Core 5.0 MVC\CoreDemo\CoreDemo\bin\Debug\net5.0\FluentValidation.DependencyInjectionExtensions.dll
@@ -177,3 +176,4 @@ C:\Asp .Net Core 5.0 MVC\CoreDemo\CoreDemo\obj\Debug\net5.0\Razor\Views\Contact\
 C:\Asp .Net Core 5.0 MVC\CoreDemo\CoreDemo\obj\Debug\net5.0\Razor\Views\Writer\Index.cshtml.g.cs
 C:\Asp .Net Core 5.0 MVC\CoreDemo\CoreDemo\obj\Debug\net5.0\Razor\Views\Writer\WriterProfile.cshtml.g.cs
 C:\Asp .Net Core 5.0 MVC\CoreDemo\CoreDemo\obj\Debug\net5.0\Razor\Views\Writer\WriterMail.cshtml.g.cs
+C:\Asp .Net Core 5.0 MVC\CoreDemo\CoreDemo\obj\Debug\net5.0\refint\CoreDemo.dll
