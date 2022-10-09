@@ -177,3 +177,4 @@ C:\Asp .Net Core 5.0 MVC\CoreDemo\CoreDemo\obj\Debug\net5.0\Razor\Views\Writer\I
 C:\Asp .Net Core 5.0 MVC\CoreDemo\CoreDemo\obj\Debug\net5.0\Razor\Views\Writer\WriterProfile.cshtml.g.cs
 C:\Asp .Net Core 5.0 MVC\CoreDemo\CoreDemo\obj\Debug\net5.0\Razor\Views\Writer\WriterMail.cshtml.g.cs
 C:\Asp .Net Core 5.0 MVC\CoreDemo\CoreDemo\obj\Debug\net5.0\refint\CoreDemo.dll
+C:\Asp .Net Core 5.0 MVC\CoreDemo\CoreDemo\obj\Debug\net5.0\Razor\Views\Shared\Components\BlogLast3Post\Default.cshtml.g.cs

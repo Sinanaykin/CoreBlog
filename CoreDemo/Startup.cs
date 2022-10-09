@@ -27,7 +27,7 @@ namespace CoreDemo
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
-            services.AddSession();//Session iþlemi ni bunu ekledik yani oturum ekleme
+            //services.AddSession();//Session iþlemi ni bunu ekledik yani oturum ekleme
                                   //
             services.AddMvc(config => //Proje seviyesinde Authorize  yapabilicez.Giriþ yapýlmadan sayfalara eriþilmesin dicez.Yani sayfalarýn hepsine eriþmek için giriþ yapmalýsýn.Tüm sayfalara eriþemiyoruz giriþ sayfasýna eriþmek için [AllowAnonymous] Controllera bunu yaz LoginController daki Indexe.
             {
@@ -67,7 +67,8 @@ namespace CoreDemo
             app.UseHttpsRedirection();
 
             app.UseStaticFiles();
-            app.UseSession();//Session kullanmak için ekledik
+            app.UseAuthentication();
+           // app.UseSession();//Session kullanmak için ekledik.   Session ile login den vazgeçip claim lar ile yani identity ile giriþ yaptýk ondan buna gerek yok artýk
 
             app.UseRouting();
 
