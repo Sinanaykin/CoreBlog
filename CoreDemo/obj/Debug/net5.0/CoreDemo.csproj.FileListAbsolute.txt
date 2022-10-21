@@ -178,3 +178,11 @@ C:\Asp .Net Core 5.0 MVC\CoreDemo\CoreDemo\obj\Debug\net5.0\Razor\Views\Writer\W
 C:\Asp .Net Core 5.0 MVC\CoreDemo\CoreDemo\obj\Debug\net5.0\Razor\Views\Writer\WriterMail.cshtml.g.cs
 C:\Asp .Net Core 5.0 MVC\CoreDemo\CoreDemo\obj\Debug\net5.0\refint\CoreDemo.dll
 C:\Asp .Net Core 5.0 MVC\CoreDemo\CoreDemo\obj\Debug\net5.0\Razor\Views\Shared\Components\BlogLast3Post\Default.cshtml.g.cs
+C:\Asp .Net Core 5.0 MVC\CoreDemo\CoreDemo\obj\Debug\net5.0\Razor\Views\Shared\WriterLayout.cshtml.g.cs
+C:\Asp .Net Core 5.0 MVC\CoreDemo\CoreDemo\obj\Debug\net5.0\Razor\Views\Writer\Test.cshtml.g.cs
+C:\Asp .Net Core 5.0 MVC\CoreDemo\CoreDemo\obj\Debug\net5.0\Razor\Views\Writer\WriterNavbarPartial.cshtml.g.cs
+C:\Asp .Net Core 5.0 MVC\CoreDemo\CoreDemo\obj\Debug\net5.0\Razor\Views\Writer\WriterFooterPartial.cshtml.g.cs
+C:\Asp .Net Core 5.0 MVC\CoreDemo\CoreDemo\obj\Debug\net5.0\Razor\Views\Shared\Components\WriterMessageNotification\Default.cshtml.g.cs
+C:\Asp .Net Core 5.0 MVC\CoreDemo\CoreDemo\obj\Debug\net5.0\Razor\Views\Shared\Components\WriterNotification\Default.cshtml.g.cs
+C:\Asp .Net Core 5.0 MVC\CoreDemo\CoreDemo\obj\Debug\net5.0\Razor\Views\Blog\BlogListByWriter.cshtml.g.cs
+C:\Asp .Net Core 5.0 MVC\CoreDemo\CoreDemo\obj\Debug\net5.0\Razor\Views\Blog\BlogAdd.cshtml.g.cs
