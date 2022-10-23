@@ -5,6 +5,7 @@ using EntityLayer.Concrete;
 using FluentValidation.Results;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -33,13 +34,22 @@ namespace CoreDemo.Controllers
 
         public IActionResult BlogListByWriter()
         {
-            var values = bm.GetBlogListByWriter(1);
+            var values = bm.GetListWithCategoryByWriterBm(1);
             return View(values);
         }
 
         [HttpGet]
         public IActionResult BlogAdd()
         {
+            CategoryManager cm=new CategoryManager(new EfCategoryRepository());
+            
+            List<SelectListItem> categoryValues = (from x in cm.GetList() //Kategorileri dropdown dan çekmek için burda name ve id sini aldık
+                                                   select new SelectListItem
+                                                   { 
+                                                       Text=x.CategoryName,
+                                                       Value=x.CategoryID.ToString()
+                                                   }).ToList();
+            ViewBag.cv = categoryValues;//Burdada yukarda çektiğimiz veriyi viewbage atadık çünkü view tarafında bu değerleri alıcaz
             
             return View();
         }
@@ -66,6 +76,12 @@ namespace CoreDemo.Controllers
             return View();
         }
 
+        public IActionResult DeleteBlog(int id)//Buraya id yide view kısmında yolluyoruz
+        {
+            var blogbalue = bm.TGetById(id);
+            bm.TDelete(blogbalue);  
+            return RedirectToAction("BlogListByWriter");  
+        }
 
 
 
