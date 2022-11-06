@@ -188,3 +188,5 @@ C:\Asp .Net Core 5.0 MVC\CoreDemo\CoreDemo\obj\Debug\net5.0\Razor\Views\Blog\Blo
 C:\Asp .Net Core 5.0 MVC\CoreDemo\CoreDemo\obj\Debug\net5.0\Razor\Views\Blog\BlogAdd.cshtml.g.cs
 C:\Asp .Net Core 5.0 MVC\CoreDemo\CoreDemo\obj\Debug\net5.0\Razor\Views\Blog\EditBlog.cshtml.g.cs
 C:\Asp .Net Core 5.0 MVC\CoreDemo\CoreDemo\obj\Debug\net5.0\Razor\Views\Dashboard\Index.cshtml.g.cs
+C:\Asp .Net Core 5.0 MVC\CoreDemo\CoreDemo\obj\Debug\net5.0\Razor\Views\Shared\Components\BlogListDashboard\Default.cshtml.g.cs
+C:\Asp .Net Core 5.0 MVC\CoreDemo\CoreDemo\obj\Debug\net5.0\Razor\Views\Shared\Components\CategoryListDashboard\Default.cshtml.g.cs
